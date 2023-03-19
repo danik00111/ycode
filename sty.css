@@ -1,2 +1,109 @@
+/*
+ * start imports and reset
+ */
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
-*{margin:0;padding:0;border:0;outline:0;list-style:none;text-decoration:none;box-sizing:border-box;font-family:'Roboto';}
+*{margin:0;padding:0;border:0;outline:0;list-style:none;text-decoration:none;box-sizing:border-box;font-family:'Roboto';color:black;}
+/*
+ * end imports and reset
+ * start perks
+ */
+.P_cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.P_hdr {
+  font-size: 57px;
+  margin-bottom: 25px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.P_sub-hdr {
+  font-size: 31px;
+  text-align: center;
+}
+.P_subscriptions {
+  width: 100%;
+  padding: 128px;
+}
+.P_sub {
+  width: 100%;
+  padding: 48px;
+  border-radius: 16px;
+}
+.P_sub:not(:last-child) {
+  margin-bottom: 40px;
+}
+.P_sub:first-child {
+  background: #f8e9ff;
+}
+.P_label {
+  font-size: 20px;
+  margin-bottom: 9px;
+}
+.P_price {
+  font-size: 48px;
+  margin-bottom: 7px;
+}
+.P_uah {
+  font-size: 24px;
+}
+.P_sub:not(:first-child) .P_uah {
+  margin-right: -10px;
+}
+.P_decimal {
+  font-size: 16px;
+  margin-left: -0.75em;
+}
+.P_mo {
+  font-size: 24px;
+}
+.P_desc {
+  font-size: 19px;
+  color: #130c1980;
+  margin-bottom: 40px;
+}
+.P_perk {
+  list-style-image: url(./img/check.svg);
+  font-size: 16px;
+}
+.P_perk:not(:last-child) {
+  margin-bottom: 16px;
+}
+.P_perk:last-child {
+  margin-bottom: 36px;
+}
+.P_new-perk:after {
+  margin-left: 6px;
+  content: 'NEW';
+  background: #130c1980;
+  padding: 1px 4px 3px;
+  border-radius: 4px;
+  color: #f8e9ff;
+}
+#P_perk-button {
+  height: 62px;
+  background: #050606;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.P_perk-button {
+  height: 62px;
+  background: white;
+  color: black;
+  border: 2px solid #050606;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/*
+ * end perks
+ * start ????
+ */
