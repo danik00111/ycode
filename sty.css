@@ -2,7 +2,7 @@
   * start imports and reset
 ***/
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
-*{margin:0;padding:0;border:0;outline:0;list-style:none;text-decoration:none;box-sizing:border-box;font-family:'Roboto';color:black;}
+*{margin:0;padding:0;border:0;outline:0;list-style:none;text-decoration:none;box-sizing:border-box;font-family:'Roboto';}
 /**
   * end imports and reset
   * start perks
@@ -76,7 +76,7 @@
 }
 .P_new-perk:after {
   margin-left: 6px;
-  content: 'NEW';
+  content: 'НОВИНКА';
   background: #130c1980;
   padding: 1px 4px 3px;
   border-radius: 4px;
@@ -105,5 +105,26 @@
 }
 /**
   * end perks
+  * start mini-site
+***/
+.R_mini-site {
+  margin-bottom: 96px;
+  border: 5px solid #000;
+}
+.R_hdr {
+  font-size: 54px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.R_sub-hdr {
+  color: #00000080;
+  font-size: 31px;
+  text-align: center;
+  margin-bottom: 90px;
+  margin-left: 64px;
+  margin-right: 64px;
+}
+/**
+  * end mini-site
   * start ????
 ***/
