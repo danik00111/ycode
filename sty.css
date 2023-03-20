@@ -95,6 +95,7 @@
 .B_container {
   background: #F0F2F4;
   font-family: 'Roboto', sans-serif;
+  margin-bottom: 80px;
 }
 .B_container_one {
   display: flex;
@@ -111,6 +112,8 @@
   color: #05060680;
   font-size: 32px;
   text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 .B_container_two {
   background: white;
@@ -184,6 +187,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 172px;
 }
 .P_hdr {
   font-size: 57px;
