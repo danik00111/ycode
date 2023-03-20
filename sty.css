@@ -8,68 +8,175 @@
   * start header
 ***/
 .H_container {
-    display: flex;
-    margin-top: 24px;
-    justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 72px;
+  display: flex;
+  margin-top: 24px;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 72px;
 }
 .H_image {
-    width: 100px;
-    margin-top: 4px;
-    height: 35px;
+  width: 100px;
+  margin-top: 4px;
+  height: 35px;
 }
 .H_navigation {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .H_links {
-    display: flex;
+  display: flex;
 }
 .H_link_item {
-    list-style: none;
+  list-style: none;
 }
 .H_link_item_one {
-    text-decoration: none;
-    color: #050606;
+  text-decoration: none;
+  color: #050606;
 }
 .H_link_item_two {
-    text-decoration: none;
-    color: #050606;
-    margin-left: 48px;
+  text-decoration: none;
+  color: #050606;
+  margin-left: 48px;
 }
 .H_buttons {
-    display: flex;
+  display: flex;
 }
 .H_button_item {
-    list-style: none;
+  list-style: none;
 }
 .H_button_item_one {
-    text-decoration: none;
-    color: #050606;
-    margin-left: 48px;
-    margin-right: 40px;
+  text-decoration: none;
+  color: #050606;
+  margin-left: 48px;
+  margin-right: 40px;
 }
 .H_button_item_two {
-    text-decoration: none;
-    color: white;
-    padding: 8px 16px;
-    background: #050606;
-    border-radius: 6px;
-    border: 2px solid #000;
-    transition: 0.5s;
+  text-decoration: none;
+  color: white;
+  padding: 8px 16px;
+  background: #050606;
+  border-radius: 6px;
+  border: 2px solid #000;
+  transition: 0.5s;
 }
 .H_button_item_two:hover {
-    background: white;
-    color: black;
+  background: white;
+  color: black;
 }
 .H_link_item_image {
-    margin-left: 3px;
+  margin-left: 3px;
 }
-
 /**
   * end header
+  * start mini-site
+***/
+.R_mini-site {
+  margin-bottom: 96px;
+  border: 5px solid #000;
+}
+.R_hdr {
+  font-size: 54px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.R_sub-hdr {
+  color: #00000080;
+  font-size: 31px;
+  text-align: center;
+  margin-bottom: 90px;
+  margin-left: 64px;
+  margin-right: 64px;
+}
+/**
+  * end mini-site
+  * start but thats not all
+***/
+.B_container {
+  background: #F0F2F4;
+  font-family: 'Roboto', sans-serif;
+}
+.B_container_one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 160px;
+  margin-bottom: 83px;
+}
+.B_container_one_title {
+  font-size: 52px;
+  margin-bottom: 24px;
+}
+.B_container_one_subtitle {
+  color: #05060680;
+  font-size: 32px;
+  text-align: center;
+}
+.B_container_two {
+  background: white;
+  width: 950px;
+  height: 450px;
+  border-radius: 24px;
+  margin: 0 auto;
+  margin-bottom: 164px;
+}
+.B_container_two_block_one {
+  padding-top: 47px;
+  padding-left: 48px;
+}
+.B_container_two_block_one_title {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.B_container_two_block_one_text {
+  font-size: 16px;
+}
+.B_container_two_block_two {
+  margin-top: 96px;
+  margin-left: 48px;
+}
+.B_container_two_block_two_title {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.B_container_two_block_two_text {
+  font-size: 16px;
+}
+.B_container_two_block_three {
+  margin-top: 96px;
+  margin-left: 48px;
+}
+.B_container_two_block_three_title {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.B_container_two_block_three_text {
+  font-size: 16px;
+}
+.B_container_three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.B_container_three_title {
+  font-size: 53px;
+  margin-bottom: 32px;
+}
+.B_container_three_subtitle {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 27px;
+}
+.B_container_three_button {
+  font-size: 19px;
+  text-decoration: none;
+  color: white;
+  background: black;
+  padding: 16px 38px;
+  border-radius: 8px;
+}
+/**
+  * end but thats not all
   * start perks
 ***/
 .P_cont {
@@ -170,26 +277,5 @@
 }
 /**
   * end perks
-  * start mini-site
-***/
-.R_mini-site {
-  margin-bottom: 96px;
-  border: 5px solid #000;
-}
-.R_hdr {
-  font-size: 54px;
-  text-align: center;
-  margin-bottom: 25px;
-}
-.R_sub-hdr {
-  color: #00000080;
-  font-size: 31px;
-  text-align: center;
-  margin-bottom: 90px;
-  margin-left: 64px;
-  margin-right: 64px;
-}
-/**
-  * end mini-site
   * start ????
 ***/
