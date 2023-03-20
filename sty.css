@@ -5,6 +5,71 @@
 *{margin:0;padding:0;border:0;outline:0;list-style:none;text-decoration:none;box-sizing:border-box;font-family:'Roboto';}
 /**
   * end imports and reset
+  * start header
+***/
+.H_container {
+    display: flex;
+    margin-top: 24px;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 72px;
+}
+.H_image {
+    width: 100px;
+    margin-top: 4px;
+    height: 35px;
+}
+.H_navigation {
+    display: flex;
+    align-items: center;
+}
+.H_links {
+    display: flex;
+}
+.H_link_item {
+    list-style: none;
+}
+.H_link_item_one {
+    text-decoration: none;
+    color: #050606;
+}
+.H_link_item_two {
+    text-decoration: none;
+    color: #050606;
+    margin-left: 48px;
+}
+.H_buttons {
+    display: flex;
+}
+.H_button_item {
+    list-style: none;
+}
+.H_button_item_one {
+    text-decoration: none;
+    color: #050606;
+    margin-left: 48px;
+    margin-right: 40px;
+}
+.H_button_item_two {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    background: #050606;
+    border-radius: 6px;
+    border: 2px solid #000;
+    transition: 0.5s;
+}
+.H_button_item_two:hover {
+    background: white;
+    color: black;
+}
+.H_link_item_image {
+    margin-left: 3px;
+}
+
+/**
+  * end header
   * start perks
 ***/
 .P_cont {
