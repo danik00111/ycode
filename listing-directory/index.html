@@ -9,8 +9,8 @@
 </head>
 
 <body>
+  <div class="folder-name">img:</div>
   <div class="folder">
-    <div class="folder-name">img:</div>
     <a href="../img/check.svg">img/check.svg</a>
     <a href="../img/logo.svg">img/logo.svg</a>
     <a href="../img/ycode-y.svg">img/ycode-y.svg</a>
@@ -23,18 +23,42 @@
 
 </html>
 <style>
+  .folder {
+    margin-left: 32px;
+  }
+
   a {
     display: block;
     text-decoration: none;
     color: cyan;
   }
 
-  .folder {
-    margin-left: 32px;
+  .folder>a {
+    color: aquamarine;
   }
 
-  .folder-name {
-    margin-left: -32px;
+  .folder>.folder>a {
+    color: lime;
+  }
+
+  .folder>.folder>.folder>a {
+    color: greenyellow;
+  }
+
+  .folder>.folder>.folder>.folder>a {
+    color: yellow;
+  }
+
+  .folder>.folder>.folder>.folder>.folder>a {
+    color: orange;
+  }
+
+  .folder>.folder>.folder>.folder>.folder>.folder>a {
+    color: orangered;
+  }
+
+  .folder>.folder>.folder>.folder>.folder>.folder>.folder>a {
+    color: red;
   }
 
   a:hover {
@@ -42,8 +66,8 @@
   }
 
   body {
-    background: black;
     color: white;
+    background: black;
     font-size: 32px;
   }
 </style>
