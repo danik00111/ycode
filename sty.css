@@ -164,6 +164,7 @@
 .B_container_three_title {
   font-size: 53px;
   margin-bottom: 32px;
+  text-align: center;
 }
 .B_container_three_subtitle {
   font-size: 32px;
@@ -353,11 +354,10 @@
 .fa-twitter {
   font-size: 16px;
 }
-.fa-facebook {
-  margin-left: 20px;
-  font-size: 16px;
-}
-.fa-youtube {
+.fa-linkedin,
+.fa-facebook,
+.fa-youtube,
+.fa-basketball {
   margin-left: 20px;
   font-size: 16px;
 }
