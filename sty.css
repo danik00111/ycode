@@ -90,6 +90,43 @@
 }
 /**
   * end mini-site
+  * start visual
+***/
+.C_h1 {
+  margin-left: 248px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+}
+.C_h3 {
+  color: rgba(5, 6, 6, 0.5);
+  letter-spacing: 0.8px;
+  margin-left: 380px;
+  font-family: 'Roboto';
+  font-style: normal;
+  margin-bottom: 163px;
+  font-weight: 400;
+}
+.C_h11 {
+  font-family: 'Roboto';
+  font-style: normal;
+  margin-left: 178px;
+  font-weight: 400;
+}
+.C_h33 {
+  font-family: 'Roboto';
+  font-style: normal;
+  color: rgba(5, 6, 6, 0.5);
+  margin-left: 178px;
+  letter-spacing: 0.8px;
+  font-weight: 400;
+}
+.C_img {
+  margin-left: 178px;
+}
+
+/**
+  * end visual
   * start but thats not all
 ***/
 .B_container {
@@ -178,6 +215,14 @@
   background: black;
   padding: 16px 38px;
   border-radius: 8px;
+  border: 2px solid #00000000;
+  transition: all 500ms;
+}
+.B_container_three_button:hover {
+  background: white;
+  color: black;
+  border-color: black;
+  transition: all 500ms;
 }
 /**
   * end but thats not all
@@ -268,6 +313,12 @@
   justify-content: center;
   border-radius: 8px;
   cursor: pointer;
+  border: 2px solid black;
+}
+#P_perk-button:hover {
+  background: none;
+  color: black;
+  transition: all 500ms;
 }
 .P_perk-button {
   height: 62px;
@@ -279,6 +330,13 @@
   justify-content: center;
   border-radius: 8px;
   cursor: pointer;
+  border: 2px solid black;
+  transition: all 500ms;
+}
+.P_perk-button:hover {
+  background: black;
+  color: white;
+  transition: all 500ms;
 }
 /**
   * end perks
