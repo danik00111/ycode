@@ -96,17 +96,20 @@ color: #050606;
 .V_button_one {
   margin: 30px;
   color: white;
+  background: black;
+  border: 2px solid black;
   box-sizing: border-box;
   height: 62px;
-  background: #050606;
-  border: 2px solid #050606;
   border-radius: 8px;
   margin-bottom: 30px;
+  transition: all .5s;
 }
 .V_button_two {
   margin: 30px;
   height: 30px;
   color: black;
+  background: white;
+  border: 2px solid white;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -115,6 +118,17 @@ color: #050606;
   text-align: center;
   letter-spacing: 0.5px;
   margin-bottom: 30px;
+  transition: all .5s;
+}
+.V_button_one:hover {
+  color: black;
+  background: white;
+  border: 2px solid white;
+}
+.V_button_two:hover {
+color: white;
+background: black;
+border: 2px solid black;
 }
 /**
   * end visual
@@ -125,6 +139,7 @@ color: #050606;
   border: 5px solid #000;
   width: 500px;
   height: 500px;
+  margin: 0 auto;
 }
 .R_hdr {
   font-size: 54px;
