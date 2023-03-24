@@ -67,13 +67,11 @@
   * start visual
 ***/
 .V_main {
-  background: #F0F2F4;
   padding: 100px;
   display: flex;
   flex-direction: column;
 }
 .V_Main-Title {
-width: 1218px;
 height: 9px;
 margin: 30px;
 font-family: 'Roboto';
@@ -86,7 +84,6 @@ color: #050606;
 }
 .V_secondary-title {
   margin: 30px;
-  width: 1179px;
   height: 120px;
   font-family: 'Roboto';
   font-style: normal;
@@ -100,7 +97,6 @@ color: #050606;
   margin: 30px;
   color: white;
   box-sizing: border-box;
-  width: 218px;
   height: 62px;
   background: #050606;
   border: 2px solid #050606;
@@ -109,8 +105,8 @@ color: #050606;
 }
 .V_button_two {
   margin: 30px;
-  width: 121px;
   height: 30px;
+  color: black;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -127,6 +123,8 @@ color: #050606;
 .R_mini-site {
   margin-bottom: 96px;
   border: 5px solid #000;
+  width: 500px;
+  height: 500px;
 }
 .R_hdr {
   font-size: 54px;
@@ -392,3 +390,245 @@ color: #050606;
 }
 /**
   * end perks
+  * start footer
+***/
+
+.F_container {
+    font-family: 'Roboto', sans-serif;
+}
+.F_container_block_one {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.F_container_block_one_title {
+    margin-top: 172px;
+    color: white;
+    font-size: 54px;
+}
+.F_container_block_one_subtitle {
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+    font-size: 31px;
+}
+.F_container_block_one_buttons {
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 176px;
+}
+.F_container_block_one_button_one {
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    padding: 12px 34px;
+    border-radius: 8px;
+    background: white;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+.F_container_block_one_button_one:hover  {
+    color: white;
+    background: black;
+}
+.F_container_block_one_button_two {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    margin-left: 12px;
+    padding: 12px 34px;
+    border-radius: 8px;
+    transition: 0.5s;
+    border: 2px solid black;
+}
+.F_container_block_one_button_two:hover {
+    border: 2px solid white;
+}
+.F_container_block_two {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+}
+.F_container_block_two_column_one_text {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.F_container_block_two_column_one_image_logos {
+    margin-left: 20px;
+    width: 16px;
+    height: 16px;
+}
+.fa-twitter {
+    font-size: 16px;
+}
+.fa-facebook {
+    margin-left: 20px;
+    font-size: 16px;
+}
+.fa-youtube {
+    margin-left: 20px;
+    font-size: 16px;
+}
+.F_container_block_two_column_two_image_logos {
+    margin-left: 20px;
+    width: 16px;
+    height: 16px;
+}
+.F_container_block_two_column_two_title_one {
+    font-size: 18px;
+}
+.F_container_block_two_column_two_text {
+    font-size: 13px;
+    margin-top: 20px;
+}
+.F_container_block_two_column_two_title_two {
+    margin-top: 48px;
+}
+.F_container_block_two_column_three_title_two {
+    margin-top: 88px;
+}
+.F_container_block_two_column_three_title_one {
+    font-size: 18px;
+}
+.F_container_block_two_column_three_text {
+    font-size: 13px;
+    margin-top: 20px;
+}
+.F_container_block_two_column_four_title {
+    font-size: 18px;
+}
+.F_container_block_two_column_four_text {
+    font-size: 13px;
+    margin-top: 20px;
+}
+/**
+  * end footer
+  * start keep in touch
+***/
+.T_line-sett {
+  display: flex;
+  justify-content: center;
+}
+.T_line {
+  justify-content: center;
+  border: 1px solid #E7E7E7;
+  width: 944px;
+  height: 1px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.T_cont {
+  margin-left: 290px;
+  margin-bottom: 100px;
+  width: 944px;
+  height: 300px;
+}
+.T_name {
+  font-size: 20px;
+  color: #050606;
+}
+.T_text {
+  font-size: 11px;
+  letter-spacing: 0.3px;
+  margin-top: 20px;
+  color: #050606BF;
+}
+.T_cont-subscribe {
+  display: flex;
+  justify-content: right;
+  margin-top: -61px;
+}
+.T_button-subscribe {
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  background-color: #007DFF;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+  font-size: 14px;
+  padding-top: 4px;
+  text-align: center;
+  width: 91px;
+  height: 29px;
+  transition: 0.5s;
+}
+.T_button-subscribe:hover{
+  transition: 0.5s;
+  border: 1px solid #007DFF;
+  background-color: rgba(0, 0, 0, 0);
+  color: #007DFF;
+}
+.T_line-sub {
+  display: flex;
+  justify-content: right;
+}
+.T_subscribe-line {
+  border: 1px solid #B3B6B7;
+  background: #B3B6B7;
+  margin-top: 10px;
+  width: 500px;
+  height: 1px;
+}
+.T_sub-cont {
+  display: flex;
+  justify-content: center;
+  margin-left: 209px;
+}
+.T_sub-text {
+  color: #05060680;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.T_down-cont {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.T_down-line {
+  border: 1px solid rgba(0, 0, 0, 0);
+  background: #E7E7E7;
+  width: 944px;
+  height: 1px;
+}
+.T_last-text {
+  margin-top: 50px;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  color: #050606BF;
+}
+.T_right-cont {
+  display: flex;
+  justify-content: right;
+}
+.T_right-term {
+  color: #050606;
+  font-size: 10px;
+  letter-spacing: 0.3px;
+  margin-right: 40px;
+  margin-top: -11px;
+  text-decoration: none;
+  transition: 1s;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+.T_right-term:hover{
+  color: #007DFF;
+  border-bottom: 1px solid #007DFF;
+}
+.T_right-cookies {
+  color: #050606;
+  font-size: 10px;
+  letter-spacing: 0.3px;
+  margin-top: -11px;
+  text-decoration: none;
+  transition: 1s;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+.T_right-cookies:hover{
+  color: #007DFF;
+  border-bottom: 1px solid #007DFF;
+}
+/**
+  * end keep in touch
