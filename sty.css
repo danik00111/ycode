@@ -536,6 +536,8 @@ color: #050606;
   text-align: center;
   color: white;
   font-size: 31px;
+  margin-left: 128px;
+  margin-right: 128px;
 }
 .F_container_block_one_buttons {
   color: white;
@@ -552,7 +554,7 @@ color: #050606;
   border: 2px solid white;
   transition: 0.5s;
 }
-.F_container_block_one_button_one:hover  {
+.F_container_block_one_button_one:hover {
   color: white;
   background: black;
 }
@@ -578,6 +580,7 @@ color: #050606;
   font-size: 18px;
   margin-top: 30px;
   margin-bottom: 20px;
+  width: 150px;
 }
 .F_container_block_two_column_one_image_logos {
   margin-left: 20px;
