@@ -587,16 +587,16 @@ color: #050606;
   width: 16px;
   height: 16px;
 }
+.fa-twitter,
+.fa-linkedin,
+.fa-facebook,
+.fa-youtube,
+.fa-dribbble {
+  margin-left: 20px;
+  font-size: 16px;
+}
 .fa-twitter {
-  font-size: 16px;
-}
-.fa-facebook {
-  margin-left: 20px;
-  font-size: 16px;
-}
-.fa-youtube {
-  margin-left: 20px;
-  font-size: 16px;
+  margin-left: 0;
 }
 .F_container_block_two_column_two_image_logos {
   margin-left: 20px;
