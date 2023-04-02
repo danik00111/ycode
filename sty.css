@@ -160,7 +160,7 @@ color: #050606;
   font-size: 42px;
 }
 .R_main-blocky {
-  background: #007DFF;
+  background: #007dff;
 }
 .R_main-cards {
   display: flex;
@@ -176,7 +176,7 @@ color: #050606;
   padding: 4px;
 }
 .R_main-card-border {
-  border: 2px solid #007DFF;
+  border: 2px solid #007dff;
   padding: 16px;
 }
 .R_main-img {
@@ -274,7 +274,7 @@ color: #050606;
   * start but thats not all
 ***/
 .B_container {
-  background: #F0F2F4;
+  background: #f0f2f4;
   font-family: 'Roboto', sans-serif;
   padding-bottom: 80px;
 }
@@ -378,7 +378,7 @@ color: #050606;
   flex-wrap: wrap;
   justify-content: center;
   border-radius: 20px;
-  background-color: #fff;
+  background: white;
   position: relative;
   height: 994px;
 }
@@ -640,7 +640,7 @@ color: #050606;
 }
 .T_line {
   justify-content: center;
-  border: 1px solid #E7E7E7;
+  border: 1px solid #e7e7e7;
   width: 944px;
   height: 1px;
   margin-top: 100px;
@@ -670,8 +670,8 @@ color: #050606;
 .T_button-subscribe {
   border: 1px solid none;
   border-radius: 5px;
-  background-color: #007DFF;
-  color: #FFFFFF;
+  background-color: #007dff;
+  color: white;
   margin-bottom: 5px;
   font-size: 14px;
   padding-top: 4px;
@@ -682,9 +682,9 @@ color: #050606;
 }
 .T_button-subscribe:hover{
   transition: 0.5s;
-  border: 1px solid #007DFF;
+  border: 1px solid #007dff;
   background-color: white;
-  color: #007DFF;
+  color: #007dff;
 }
 .T_write-down {
   display: flex;
@@ -692,7 +692,7 @@ color: #050606;
   margin-left: 100px;
 }
 input{
-  border: 2px solid #B3B6B7;
+  border: 2px solid #b3b6b7;
   padding: 2px;
   border-radius: 2px;
 }
@@ -701,8 +701,8 @@ input{
   justify-content: right;
 }
 .T_subscribe-line {
-  border: 1px solid #B3B6B7;
-  background: #B3B6B7;
+  border: 1px solid #b3b6b7;
+  background: #b3b6b7;
   margin-top: 10px;
   width: 500px;
   height: 1px;
@@ -724,7 +724,7 @@ input{
 }
 .T_down-line {
   border: 1px solid rgba(0, 0, 0, 0);
-  background: #E7E7E7;
+  background: #e7e7e7;
   width: 944px;
   height: 1px;
 }
@@ -750,8 +750,8 @@ input{
   padding-bottom: 5px;
 }
 .T_right-term:hover{
-  color: #007DFF;
-  border-bottom: 1px solid #007DFF;
+  color: #007dff;
+  border-bottom: 1px solid #007dff;
 }
 .T_right-cookies {
   color: #050606;
@@ -764,8 +764,8 @@ input{
   padding-bottom: 5px;
 }
 .T_right-cookies:hover{
-  color: #007DFF;
-  border-bottom: 1px solid #007DFF;
+  color: #007dff;
+  border-bottom: 1px solid #007dff;
 }
 /**
   * end keep in touch
