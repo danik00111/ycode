@@ -634,23 +634,36 @@ color: #050606;
   * end footer
   * start keep in touch
 ***/
-.T_line-sett {
-  display: flex;
-  justify-content: center;
-}
-.T_line {
-  justify-content: center;
-  border: 1px solid #e7e7e7;
-  width: 944px;
-  height: 1px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  .footer{
+  border-top: 1px solid #E7E7E7;
+  border-bottom:1px solid #E7E7E7 ;
+  margin: 50px;
 }
 .T_cont {
-  margin: 0 auto;
-  margin-bottom: 100px;
-  width: 944px;
+  margin: 100px auto;
+  max-width: 944px;
   height: 300px;
+}
+.T_cont-block{
+  display: flex;
+  justify-content: space-between;
+}
+.T_cont-left{
+  max-width: 400px;
+  align-items: center;
+}
+.T_cont-right{
+  position: relative;
+  flex-grow: 1;
+  border-bottom: 1px solid #B3B6B7;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.T_down-cont{
+  border-top: 1px solid #E7E7E7;
+  margin-top: 200px;
 }
 .T_name {
   font-size: 20px;
@@ -665,14 +678,13 @@ color: #050606;
 .T_cont-subscribe {
   display: flex;
   justify-content: right;
-  margin-top: -61px;
 }
 .T_button-subscribe {
-  border: 1px solid none;
+  border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 5px;
-  background-color: #007dff;
-  color: white;
-  margin-bottom: 5px;
+  background-color: #007DFF;
+  color: #FFFFFF;
+  margin-bottom: -20px;
   font-size: 14px;
   padding-top: 4px;
   text-align: center;
@@ -682,30 +694,9 @@ color: #050606;
 }
 .T_button-subscribe:hover{
   transition: 0.5s;
-  border: 1px solid #007dff;
-  background-color: white;
-  color: #007dff;
-}
-.T_write-down {
-  display: flex;
-  justify-content: center;
-  margin-left: 100px;
-}
-input{
-  border: 2px solid #b3b6b7;
-  padding: 2px;
-  border-radius: 2px;
-}
-.T_line-sub {
-  display: flex;
-  justify-content: right;
-}
-.T_subscribe-line {
-  border: 1px solid #b3b6b7;
-  background: #b3b6b7;
-  margin-top: 10px;
-  width: 500px;
-  height: 1px;
+  border: 1px solid #007DFF;
+  background-color: rgba(0, 0, 0, 0);
+  color: #007DFF;
 }
 .T_sub-cont {
   display: flex;
@@ -713,20 +704,12 @@ input{
   margin-left: 209px;
 }
 .T_sub-text {
+  max-width: 400px;
+  position: absolute;
+  bottom: -30px;
   color: #05060680;
   margin-top: 10px;
   font-size: 12px;
-}
-.T_down-cont {
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-}
-.T_down-line {
-  border: 1px solid rgba(0, 0, 0, 0);
-  background: #e7e7e7;
-  width: 944px;
-  height: 1px;
 }
 .T_last-text {
   margin-top: 50px;
@@ -750,8 +733,8 @@ input{
   padding-bottom: 5px;
 }
 .T_right-term:hover{
-  color: #007dff;
-  border-bottom: 1px solid #007dff;
+  color: #007DFF;
+  border-bottom: 1px solid #007DFF;
 }
 .T_right-cookies {
   color: #050606;
@@ -764,8 +747,23 @@ input{
   padding-bottom: 5px;
 }
 .T_right-cookies:hover{
-  color: #007dff;
-  border-bottom: 1px solid #007dff;
+  color: #007DFF;
+  border-bottom: 1px solid #007DFF;
+}
+@media (max-width: 767px) and (min-width: 300px) {
+  .T_cont-block{
+    flex-direction: column;
+  }
+  .T_cont-right{
+    margin: 20px 0;
+
+  }
+  .T_cont-subscribe{
+    margin-left: 10px;
+  }
+  .T_down-cont{
+    flex-direction: column;
+  }
 }
 /**
   * end keep in touch
