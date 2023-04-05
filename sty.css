@@ -372,30 +372,37 @@ color: #050606;
   * end but thats not all
   * start grid
 ***/
-
-.W_bord {
+.W_main {
+  border: 1px solid none;
+}
+.W_cont {
+  border: 1px solid none;
+  border-radius: 2%;
+  background-color: #fff;
+  margin: 100px auto;
+  max-width: 1044px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  border-radius: 20px;
-  background: white;
-  position: relative;
-  height: 994px;
+  justify-content: space-around;
 }
 .W_card {
-  position: relative;
-  top: 30px;
-  width: 398px;
-  height: 286px;
-  margin: 35px;
+  margin-top: 60px;
+  margin-right: 120px;
+  margin-bottom: 40px;
 }
-.W_card-cont {
-  position: relative;
-  top: 33px;
-  left: 5px;
+.W_card-img-top{
+  transition: 1s;
+  font-size: 14px;
 }
-.W_card-name {
-  font-size: 20px;
+.W_card-img-top:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.W_card-body {
+  margin-top: 20px;
+}
+.W_card-title {
+  font-size: 18px;
   margin-bottom: 10px;
 }
 /**
@@ -750,13 +757,16 @@ color: #050606;
   color: #007DFF;
   border-bottom: 1px solid #007DFF;
 }
+/**
+  * end keep in touch
+  * start adaptations
+***/
 @media (max-width: 767px) and (min-width: 300px) {
   .T_cont-block{
     flex-direction: column;
   }
   .T_cont-right{
     margin: 20px 0;
-
   }
   .T_cont-subscribe{
     margin-left: 10px;
@@ -766,4 +776,4 @@ color: #050606;
   }
 }
 /**
-  * end keep in touch
+  * end adaptations
