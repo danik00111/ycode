@@ -234,7 +234,69 @@ color: #050606;
   background-image: url(./img/abstract~2.jpeg);
 }
 /**
+  * start possibilities
   * end mini-site
+**/
+.S_block {
+  margin: 0 auto;
+  max-width: 944px;
+  height: 1278px;
+  border-radius: 16px;
+  background-color: #202425;
+}
+.S_info {
+  display: flex;
+  justify-content: space-between;
+}
+.S_title {
+  max-width: 456px;
+}
+.S_title-text {
+  margin-left: 48px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: white;
+}
+.S_text-1 {
+  margin-top: 60px;
+}
+.S_text-1 span {
+  font-size: 12px;
+  color: #000;
+  padding: 3px 3px 3px 3px;
+  background-color: #ffffff66;
+  border-radius: 6px;
+}
+.S_text-2 {
+  margin-top: 5px;
+  max-width: 400px;
+}
+.S_photos {
+  align-items: center;
+  max-width: 472px;
+}
+.S_image-1 {
+  width: 472px;
+}
+.S_image-2 {
+  margin-top: 12px;
+  width: 472px;
+}
+.S_image-3 {
+  margin-top: 6px;
+  width: 472px;
+}
+.S_line {
+  margin-top: 78px;
+  width: 944px;
+  border-bottom: 2px solid #ffffff0d;
+}
+/**
+  * end possibilities
   * start c
 ***/
 .C_h1 {
@@ -642,8 +704,8 @@ color: #050606;
   * start keep in touch
 ***/
   .footer{
-  border-top: 1px solid #E7E7E7;
-  border-bottom:1px solid #E7E7E7 ;
+  border-top: 1px solid #e7e7e7;
+  border-bottom:1px solid #e7e7e7 ;
   margin: 50px;
 }
 .T_cont {
@@ -662,14 +724,14 @@ color: #050606;
 .T_cont-right{
   position: relative;
   flex-grow: 1;
-  border-bottom: 1px solid #B3B6B7;
+  border-bottom: 1px solid #b3b6b7;
   max-width: 500px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .T_down-cont{
-  border-top: 1px solid #E7E7E7;
+  border-top: 1px solid #e7e7e7;
   margin-top: 200px;
 }
 .T_name {
@@ -687,9 +749,9 @@ color: #050606;
   justify-content: right;
 }
 .T_button-subscribe {
-  border: 1px solid rgba(0, 0, 0, 0);
+  border: 1px solid #00000000;
   border-radius: 5px;
-  background-color: #007DFF;
+  background-color: #007dff;
   color: #FFFFFF;
   margin-bottom: -20px;
   font-size: 14px;
@@ -701,9 +763,9 @@ color: #050606;
 }
 .T_button-subscribe:hover{
   transition: 0.5s;
-  border: 1px solid #007DFF;
-  background-color: rgba(0, 0, 0, 0);
-  color: #007DFF;
+  border: 1px solid #007dff;
+  background-color: #00000000;
+  color: #007dff;
 }
 .T_sub-cont {
   display: flex;
@@ -740,8 +802,8 @@ color: #050606;
   padding-bottom: 5px;
 }
 .T_right-term:hover{
-  color: #007DFF;
-  border-bottom: 1px solid #007DFF;
+  color: #007dff;
+  border-bottom: 1px solid #007dff;
 }
 .T_right-cookies {
   color: #050606;
@@ -754,8 +816,8 @@ color: #050606;
   padding-bottom: 5px;
 }
 .T_right-cookies:hover{
-  color: #007DFF;
-  border-bottom: 1px solid #007DFF;
+  color: #007dff;
+  border-bottom: 1px solid #007dff;
 }
 /**
   * end keep in touch
