@@ -1,6 +1,4 @@
-/**
-  * start imports and resets
-***/
+/* start imports and resets */
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
 *{margin:0;padding:0;border:0;outline:0;list-style:none;text-decoration:none;box-sizing:border-box;font-family:'Roboto';}
 /**
@@ -237,6 +235,9 @@ color: #050606;
   * start possibilities
   * end mini-site
 **/
+.S_container {
+  background: #f0f2f4;
+}
 .S_block {
   margin: 0 auto;
   max-width: 944px;
@@ -818,6 +819,9 @@ color: #050606;
 .T_right-cookies:hover{
   color: #007dff;
   border-bottom: 1px solid #007dff;
+}
+.T_write-down{
+  margin-top: 30px;
 }
 /**
   * end keep in touch
