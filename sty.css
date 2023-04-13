@@ -1,6 +1,6 @@
 /* start imports and resets */
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
-*{margin:0;padding:0;border:0;outline:0;list-style:none;text-decoration:none;box-sizing:border-box;font-family:'Roboto';}
+*{margin:0;padding:0;border:0;outline:0;list-style:none;text-decoration:none;box-sizing:border-box;font-family:'Roboto';}body{overflow-x:hidden;}
 /**
   end imports and resets
   start header
@@ -383,6 +383,7 @@ header {
 .B_container_two {
   background: white;
   width: 950px;
+  max-width: 100%;
   height: 450px;
   border-radius: 24px;
   margin: 0 auto;
@@ -848,28 +849,59 @@ header {
   * end keep in touch
   * start adaptations
 ***/
-@media (max-width: 991px) and (min-width: 767px) {
-  .H_buttons{display: none}
-}
-@media (max-width: 768px) and (min-width: 320px) {
+.checkbox,.burger{display:none;}
+@media (max-width:991px) and (min-width:768px){.H_buttons{display:none}}
+@media (max-width:767px) and (min-width:320px){
   .H_links,.H_buttons{display:none}
-  header{background:white;position:fixed;}
-  .T_cont-block{
-    flex-direction: column;
+  header{width:100%;background-color:white;position:fixed;z-index:3;flex-direction: column;}
+  .T_cont-block{flex-direction: column}
+  .T_cont-right{margin:20px 0}
+  .T_cont-subscribe{margin-left:10px}
+  .T_down-cont{flex-direction:column}
+  #checkbox{display:block;opacity:0.25}
+  .checkbox:checked~.H_navigation{display:flex;flex-direction:column;}
+  .checkbox:checked~.H_navigation>*{display:block;}
+  .burger {
+    transition: 250ms;
+    position: absolute;
+    left: 90%;
+    top: 32px;
+    width: 4%;
+    height: 4px;
+    background: #007dff;
+    display: block;
+    overflow-x: visible;
   }
-  .T_cont-right{
-    margin: 20px 0;
+  .burger::before {
+    transition: 250ms;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: #007dff;
+    display: block;
+    top: -7px;
+    content:"";}
+  .burger::after {
+    transition: 250ms;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: #007dff;
+    display: block;
+    top: 7px;
+    content:"";}
+  #checkbox:checked ~ label span {
+    background: #007dff00;
   }
-  .T_cont-subscribe{
-    margin-left: 10px;
+  #checkbox:checked ~ label span::before {
+    transform: rotate(45deg);
+    top: 0px;
   }
-  .T_down-cont{
-    flex-direction: column;
+  #checkbox:checked ~ label span::after {
+    transform: rotate(-45deg);
+    top: 0px;
   }
-  /* 
-  TODO: burger menu
-  */
 }
-@media (max-width: 320px) {}
+@media (max-width: 319px) {}
 /**
   * end adaptations
