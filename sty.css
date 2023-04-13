@@ -852,14 +852,28 @@ header {
 .checkbox,.burger{display:none;}
 @media (max-width:991px) and (min-width:768px){.H_buttons{display:none}}
 @media (max-width:767px) and (min-width:320px){
+  .H_navigation{width:250px;}
   .H_links,.H_buttons{display:none}
-  header{width:100%;background-color:white;position:fixed;z-index:3;flex-direction: column;}
+  .H_links{margin-bottom:16px;}
+  .H_button_item_one{margin-bottom:12px;}
+  header{
+    width:100%;
+    background: white;
+    position:fixed;
+    z-index:3;
+    flex-direction:column;}
   .T_cont-block{flex-direction: column}
   .T_cont-right{margin:20px 0}
   .T_cont-subscribe{margin-left:10px}
   .T_down-cont{flex-direction:column}
-  #checkbox{display:block;opacity:0.25}
-  .checkbox:checked~.H_navigation{display:flex;flex-direction:column;}
+  #checkbox{
+    display: block;
+    opacity: 0.25;
+    width: 30px; height: 30px;
+    position:absolute;
+    top: 20px; left: 90%;
+  }
+  .checkbox:checked~.H_navigation{display:flex;flex-direction:column;margin-top:32px;}
   .checkbox:checked~.H_navigation>*{display:block;}
   .burger {
     transition: 250ms;
@@ -901,6 +915,7 @@ header {
     transform: rotate(-45deg);
     top: 0px;
   }
+  .H_link_item_two{margin-left: 0;}
 }
 @media (max-width: 319px) {}
 /**
